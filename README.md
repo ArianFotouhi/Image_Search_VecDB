@@ -3,7 +3,7 @@
 The Image_Search_VecDB repository is a project focused on implementing vector indexing, a fundamental technique used in modern image search engines. Vector indexing is chosen for its efficacy in efficiently handling high-dimensional feature embeddings, making it suitable for large-scale image databases.
 The core component of this repository is the vector database powered by Pinecone, a vector similarity search service. The vector database is designed to store and manage the feature embeddings extracted from images, enabling fast and accurate similarity searches for image retrieval.
 
-## Issue Faced
+## Faced Problem 
 During the development of the app, an issue has been encountered when upserting data into the Pinecone index. The primary reason for this issue is that the size of the HTTP request exceeds the request limit. The issue stems from the large size of the involved images and their corresponding feature vectors, which contributes to the data payload of the HTTP request.
 
 ## Work in Progress
