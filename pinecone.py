@@ -3,7 +3,7 @@ import requests
 import os
 import zipfile
 
-pinecone.init(api_key="0b5323aa-73bc-4730-b9bd-cbe225ab9849", environment="gcp-starter")
+pinecone.init(api_key="", environment="gcp-starter")
 
 DATA_DIR = "temp"
 IMAGENET_DIR = f"{DATA_DIR}/tiny-imagenet-200"
